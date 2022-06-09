@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity"
+    >
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/MainViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/MainBottomNav">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_above="@+id/MainBottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/miniPlayer">
+
+        <SeekBar
+            android:progressTint="#6539B5"
+            android:progressTintMode="screen"
+            android:saveEnabled="false"
+            android:id="@+id/seekbarMiniPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:clickable="false"
+            android:progress="50"/>
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#806767"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageMiniPlayer"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tenBaiHatMiniPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/imageMiniPlayer"
+                android:ellipsize="end"
+                android:maxWidth="400dp"
+                android:singleLine="true"
+                android:text="Ai chung tinh mai"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tenCaSiMiniPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tenBaiHatMiniPlayer"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/imageMiniPlayer"
+                android:ellipsize="end"
+                android:maxWidth="400dp"
+                android:singleLine="true"
+                android:text="Dao COng Tan"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <ImageButton
+                android:id="@+id/iconPlayMiniPlayer"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="7dp"
+                android:layout_toLeftOf="@+id/iconNextMiniPlayer"
+                android:background="@null"
+                android:src="@drawable/iconplay" />
+
+            <ImageButton
+                android:id="@+id/iconNextMiniPlayer"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4.6dp"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:src="@drawable/iconnext" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/MainBottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_nav"
+        android:background="#610A60"
+        app:itemTextColor="@color/color_nav"
+        app:itemIconTint="@color/color_nav"
+        app:labelVisibilityMode="labeled">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

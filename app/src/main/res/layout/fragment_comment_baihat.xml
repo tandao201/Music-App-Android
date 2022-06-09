@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="10"
+
+    android:id="@+id/fragment_comment"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_weight="7"
+        android:id="@+id/recyclerViewComment"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="0dp">
+        <EditText
+
+            android:id="@+id/editTextComment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonComment"
+        android:layout_marginLeft="140dp"
+        android:textSize="20sp"
+        android:text="Bình luận"
+        android:layout_width="200dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+</LinearLayout>

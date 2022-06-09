@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tableLayoutRegister"
+        app:hintEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:backgroundTint="@color/white"
+            android:background="@null"
+            android:id="@+id/editTextUser"
+            android:hint="Email"
+            android:textColorHint="@color/purple_200"
+            android:textSize="15sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:hintEnabled="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tableLayoutRegister"
+        android:id="@+id/tableLayoutRegister2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:gravity="center">
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/purple_200"
+            android:textSize="15sp"
+            android:id="@+id/editTextPassword"
+            android:layout_width="300dp"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tableLayoutRegister3"
+        app:hintEnabled="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tableLayoutRegister2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@null"
+            android:id="@+id/editTextMK2"
+            android:hint="Nhập lại mật khẩu"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/purple_200"
+            android:textSize="15sp"
+            android:inputType="textPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tableLayoutRegister4"
+        app:hintEnabled="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tableLayoutRegister3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@null"
+            android:id="@+id/editTextName"
+            android:hint="Tên"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/purple_200"
+            android:textSize="15sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonRegisterProcess"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/tableLayoutRegister4"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F205CB"
+        android:text="Đăng kí" />
+
+
+
+</RelativeLayout>

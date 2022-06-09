@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tableLayoutLogin"
+        app:hintEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@null"
+            android:id="@+id/editTextUserLogin"
+            android:hint="Email"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/purple_200"
+            android:textSize="15sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:hintEnabled="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tableLayoutLogin"
+        android:id="@+id/tableLayoutLogin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:errorEnabled="true"
+        android:gravity="center">
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@null"
+            android:textColorHint="@color/purple_200"
+            android:textSize="15sp"
+            android:id="@+id/editTextPasswordLogin"
+            android:layout_width="300dp"
+            android:hint="Mật khẩu"
+            android:backgroundTint="@color/white"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonLoginProcess"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/tableLayoutLogin2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F205CB"
+        android:text="Đăng nhập" />
+
+    <TextView
+        android:id="@+id/textViewQuenMk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLoginProcess"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Quên mật khẩu?"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

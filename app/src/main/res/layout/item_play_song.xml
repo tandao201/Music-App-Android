@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="17sp"
+            android:text="1"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:id="@+id/indexListPlaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="17sp"
+            android:textColor="#0B0B0B"
+            android:text="Anh khong o day"
+            android:singleLine="true"
+            android:maxWidth="250dp"
+            android:ellipsize="end"
+            android:layout_toRightOf="@+id/indexListPlaying"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tenbaiHatListPlaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="13sp"
+            android:textColor="#fff"
+            android:text="Tan hat bai nay"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/indexListPlaying"
+            android:layout_below="@id/tenbaiHatListPlaying"
+            android:id="@+id/tenCaSiListPlaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

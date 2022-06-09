@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1875" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/drawable/button_enable.xml" value="0.187" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/drawable/custom_back_ground.xml" value="0.187" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/drawable/custom_background_color.xml" value="0.187" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/drawable/custom_bg_banner.xml" value="0.207" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/drawable/custom_btn_fb.xml" value="0.1735" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/drawable/custom_button.xml" value="0.193" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/drawable/custom_color_account.xml" value="0.2775" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_dang_nhap.xml" value="0.24112868747327917" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_dashboard.xml" value="0.24112868747327917" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_ds_album.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_ds_bai_hat.xml" value="0.2334330910645575" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_ds_chu_de.xml" value="0.2321504916631039" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_ds_playlists.xml" value="0.18554938007695596" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_ds_the_loai_theo_chu_de.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_login.xml" value="0.314664386489953" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_maps.xml" value="0.23129542539546816" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/activity_play_music.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/album.xml" value="0.20436083796494228" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/banner.xml" value="0.33" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/comment_item.xml" value="0.17272338606241983" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/dialog.xml" value="0.25" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/ds_baihat_qc.xml" value="0.33" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_album_today.xml" value="0.2334330910645575" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_baihat_offline.xml" value="0.25" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_chude_theloai.xml" value="0.23428815733219324" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_comment_baihat.xml" value="0.25" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_dang_nhap.xml" value="0.19623770842240273" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_dardboard.xml" value="0.19666524155622062" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_dia_nhac.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_list_playing.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_playlist.xml" value="0.3009833262077811" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_quangcao.xml" value="0.1" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_register.xml" value="0.22" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_tai_khoan.xml" value="0.25" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_tim_kiem.xml" value="0.2" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/fragment_trang_chu.xml" value="0.25" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/item_album.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/item_baihat_offline.xml" value="0.19410004275331338" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/item_chu_de.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/item_play_song.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/item_playlist.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/item_search_result.xml" value="0.1616075245831552" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/item_theloai_theo_chude.xml" value="0.2201795639162035" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/menu_nav.xml" value="0.5" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/layout/playlist.xml" value="0.23428815733219324" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/menu/menu_nav.xml" value="0.1" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/menu/search_view.xml" value="0.1616075245831552" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1875" />
+        <entry key="..\:/JavaMobile/AppNhac/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://schemas.android.com/apk/res/android" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

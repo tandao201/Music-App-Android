@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/fragment_dang_nhap"
+    android:background="@drawable/custom_background_color"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/navBarLinear"
+        android:layout_above="@id/viewPagerLogin"
+        android:background="@color/white"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content">
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/buttonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/white"
+                android:text="LOGIN"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/viewLogin"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@id/buttonLogin"
+                android:background="@drawable/custom_color_account" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:backgroundTint="@color/white"
+                android:text="SIGNUP"
+                android:id="@+id/buttonRegister"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+            <View
+                android:visibility="gone"
+                android:id="@+id/viewSignup"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/custom_color_account"
+                android:layout_below="@id/buttonRegister"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_below="@id/viewPagerLogin"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/textViewOrther"
+            android:text="Login with?"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_below="@id/textViewOrther"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:id="@+id/buttonLoginFb"
+            android:src="@drawable/fb_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <ImageButton
+            android:layout_below="@id/textViewOrther"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/buttonLoginFb"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:id="@+id/buttonLoginGg"
+            android:src="@drawable/gg_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
