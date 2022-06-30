@@ -154,12 +154,17 @@ public class DangNhapActivity extends AppCompatActivity {
                 Intent intent = result.getData();
                 Log.d(TAG,"onActivityResult: Google Signin intent");
                 Task<GoogleSignInAccount> accountTask = GoogleSignIn.getSignedInAccountFromIntent(intent);
-                try {
-                    GoogleSignInAccount account = accountTask.getResult(ApiException.class);
-                    firebaseAuthWithGoogleAccount(account);
-                } catch (Exception e) {
-                    Log.d(TAG,"onActivityResult: "+e.getMessage());
+                if (accountTask.isSuccessful()){
+                    try {
+                        GoogleSignInAccount account = accountTask.getResult(ApiException.class);
+                        if (account!=null){
+                            firebaseAuthWithGoogleAccount(account);
+                        }
+                    } catch (Exception e) {
+                        Log.d(TAG,"onActivityResult: "+e.getMessage());
+                    }
                 }
+
             }
         }
     });
@@ -195,10 +200,11 @@ public class DangNhapActivity extends AppCompatActivity {
 
         // configure the Google Signin
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestIdToken("774107411755-poe82j3vj9mmcf0rfbf49ju03dgq3jab.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
         googleSignInClient = GoogleSignIn.getClient(this,googleSignInOptions);
+        googleSignInClient.revokeAccess();
     }
 
     @Override
